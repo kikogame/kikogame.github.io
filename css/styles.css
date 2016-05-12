@@ -98,6 +98,9 @@ input {
   input:focus {
     outline: none; }
 
+button {
+  color: #dfdfdf; }
+
 #subscribe-light {
   display: block;
   background: none;
