@@ -1,0 +1,159 @@
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Varela Round";
+  font-weight: normal;
+  color: #fff; }
+
+p {
+  font-family: "Varela Round"; }
+
+* {
+  box-sizing: border-box; }
+
+body, html {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background: #000; }
+
+a {
+  color: #ccc;
+  text-decoration: none; }
+
+/*
+===========
+    NAV
+===========
+*/
+#nav {
+  list-style-type: none;
+  font-family: "ITC Avant Garde Gothic Std DemiBold";
+  font-size: 12px;
+  color: #ccc;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  height: 30px;
+  margin: 0;
+  padding: 0; }
+  #nav li {
+    display: inline-block;
+    height: 30px;
+    border-left: 1px solid #333; }
+    #nav li a {
+      display: block;
+      width: 100%;
+      height: 100%;
+      padding: 0 20px;
+      transition: 0.25s all ease-in-out;
+      padding-top: 8px;
+      letter-spacing: 0.05em; }
+      #nav li a:hover {
+        background: #333;
+        color: #fff; }
+  #nav .nav-left {
+    float: left; }
+  #nav .nav-right {
+    float: right; }
+    #nav .nav-right:nth-of-type(2) {
+      border-right: 1px solid #333; }
+
+/*
+===========
+ SECTIONS
+===========
+*/
+section {
+  width: 100%; }
+
+/*
+===========
+  INPUTS
+===========
+*/
+input {
+  font-family: "Varela Round";
+  font-style: normal;
+  color: #dfdfdf; }
+  input::-webkit-input-placeholder {
+    font-style: normal;
+    color: #dfdfdf; }
+  input:-moz-placeholder {
+    font-style: normal;
+    color: #dfdfdf; }
+  input::-moz-placeholder {
+    font-style: normal;
+    color: #dfdfdf; }
+  input:ms-input-placeholder {
+    font-style: normal;
+    color: #dfdfdf; }
+  input:focus {
+    outline: none; }
+
+#subscribe-light {
+  display: block;
+  background: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  width: 240px;
+  margin: 20px auto 0 auto;
+  letter-spacing: 0.15em;
+  border: 1px solid;
+  border-color: #fff;
+  transition: 0.25s all ease-in-out; }
+  #subscribe-light:hover {
+    background: rgba(255, 255, 255, 0.25); }
+
+#bigvid {
+  width: 100%;
+  height: 640px;
+  z-index: 0;
+  background-color: #000;
+  opacity: 0.7; }
+
+#intro {
+  width: 100%;
+  height: auto;
+  max-width: 500px;
+  position: absolute;
+  top: 140px;
+  left: 12%;
+  z-index: 1000; }
+  #intro h4 {
+    color: #fff;
+    letter-spacing: 0.15em;
+    font-size: 12px;
+    text-align: center;
+    margin: 10px 0 0 0; }
+
+#mainlogo {
+  width: 488px;
+  height: 222px;
+  margin: 0 auto;
+  background-size: cover;
+  background: url("../images/logo_white.svg");
+  background-repeat: no-repeat; }
+
+#town {
+  position: relative;
+  top: -350px;
+  background: url("../images/field.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 400px; }
+
+#changingworld {
+  background: url("../images/bg-1.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  top: -200px;
+  height: 640px; }
+
+/*# sourceMappingURL=styles.css.map */

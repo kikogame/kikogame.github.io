@@ -1,0 +1,64 @@
+// COLOR
+
+$black: #000;
+$dark-grey: #333;
+$grey: #ccc;
+$silver: #dfdfdf;
+$white: #fff;
+$white-transparent: rgba(255,255,255,0.25);
+
+// SIZES
+
+$max-width: 1200px;
+$max-width-sm: 500px;
+
+
+// TYPOGRAPHY
+
+$default-text-color: $white !default;
+
+$base: 12px;
+$base-lh: 1.4em;
+
+$font-sm: 10px;
+$font-md: 24px;
+$font-lg: 36px;
+
+$lh-sm: 1em;
+
+$ls-sm: 0.05em;
+$ls-md: 0.15em;
+
+$Varela: "Varela Round";
+$ITCBold: 'ITC Avant Garde Gothic Std Bold';
+$ITCBook: 'ITC Avant Garde Gothic Std Book';
+$ITCDemi: 'ITC Avant Garde Gothic Std DemiBold';
+$ITCMedium: 'ITC Avant Garde Gothic Std Medium';
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: $Varela;
+	font-weight: normal;
+	color: $white;
+}
+
+p {
+	font-family: $Varela;
+}
+
+// TRANSITIONS
+
+$medium: 0.25s all ease-in-out;
+
+
+// BORDERS
+
+$br-sm: 7px;
+$br-md: 10px;
+$br-lg: 12px;
+$br-xl: 18px;
+
+// BREAKPOINTS
+
+$desktop-lg: 1280px;
+$desktop-md: 960px;
+$mobile: 400px;

@@ -1,0 +1,130 @@
+* {
+	box-sizing: border-box;
+}
+
+body, html {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: $black;
+}
+
+a {
+	color: $grey;
+	text-decoration: none;
+}
+
+
+/*
+===========
+    NAV
+===========
+*/
+
+#nav {
+	list-style-type: none;
+	font-family: $ITCDemi;
+	font-size: $base;
+	color: $grey;
+	text-transform: uppercase;
+	letter-spacing: $ls-sm;
+	height: 30px;
+	margin: 0;
+	padding: 0;
+	li {
+		display: inline-block;
+		height: 30px;
+		border-left: 1px solid $dark-grey;
+		a {
+			display: block;
+			width: 100%;
+			height: 100%;
+			padding: 0 20px;
+			transition: $medium;
+			padding-top: 8px;
+			letter-spacing: $ls-sm;
+			&:hover {
+				background: $dark-grey;
+				color: $white;
+			}
+		}
+	}
+	.nav-left {
+		float: left;
+	}
+	.nav-right {
+		float: right;
+		&:nth-of-type(2){
+			border-right: 1px solid $dark-grey;
+		}
+	}
+}
+
+
+/*
+===========
+ SECTIONS
+===========
+*/
+
+section {
+	width: 100%;
+}
+
+
+/*
+===========
+  INPUTS
+===========
+*/
+
+input {
+	font-family: $Varela;
+	font-style: normal;
+	color: $silver;
+	&::-webkit-input-placeholder {
+		font-style: normal;
+		color: $silver;
+	}
+	&:-moz-placeholder {
+		font-style: normal;
+		color: $silver;
+	}
+	&::-moz-placeholder {
+		font-style: normal;
+		color: $silver;
+	}
+	&:ms-input-placeholder {
+		font-style: normal;
+		color: $silver;
+	}
+	&:focus {
+		outline: none;
+	}
+}
+
+#subscribe-light {
+	display: block;
+	background: none;
+	padding: 10px 20px;
+	border-radius: 20px;
+	width: 240px;
+	margin: 20px auto 0 auto;
+	letter-spacing: $ls-md;
+	border: 1px solid;
+	border-color: $white;
+	transition: $medium;
+	&:hover {
+		background: $white-transparent;
+	}
+}
+
+
+
+
+
+
+
+
