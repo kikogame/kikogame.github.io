@@ -101,7 +101,10 @@ input {
 button {
   color: #dfdfdf; }
 
-#subscribe-light {
+button:active, button:focus {
+  outline: none; }
+
+#subscribe-light, #chimpy_popup_open {
   display: block;
   background: none;
   padding: 10px 20px;
@@ -112,7 +115,7 @@ button {
   border: 1px solid;
   border-color: #fff;
   transition: 0.25s all ease-in-out; }
-  #subscribe-light:hover {
+  #subscribe-light:hover, #chimpy_popup_open:hover {
     background: rgba(255, 255, 255, 0.25); }
 
 #bigvid {

@@ -112,7 +112,11 @@ button {
 	color: $silver;
 }
 
-#subscribe-light {
+button:active, button:focus {
+	outline: none;
+}
+
+#subscribe-light, #chimpy_popup_open {
 	display: block;
 	background: none;
 	padding: 10px 20px;
